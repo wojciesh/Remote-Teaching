@@ -122,6 +122,7 @@ if (isset($_GET['selector']) && isset($_GET['validator'])) {
                                     $_SESSION['auth'] = 'verified';
                                 }
 
+                                
                                 $_SESSION['STATUS']['loginstatus'] = 'account activated, please login';
                                 header ("Location: ../../login/");
                             }
